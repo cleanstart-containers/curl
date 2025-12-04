@@ -48,9 +48,9 @@ docker run --rm -it --entrypoint /bin/sh ghcr.io/cleanstart-containers/curl:late
 
 ### Container Start
 
-Start the container:
+Start the container(HEAD request to images.cleanstart.com/):
 ```bash
-docker run --rm -it --name curl-dev ghcr.io/cleanstart-containers/curl:latest
+docker run --rm ghcr.io/cleanstart-containers/curl:latest -I https://images.cleanstart.com/
 ```
 
 ---
