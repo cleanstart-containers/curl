@@ -35,22 +35,22 @@ Typical scenarios where this container excels:
 
 Download the runtime container images:
 ```bash
-docker pull cleanstart/curl:latest
-docker pull cleanstart/curl:latest-dev
+docker pull ghcr.io/cleanstart-containers/curl:latest
+docker pull ghcr.io/cleanstart-containers/curl:latest-dev
 ```
 
 ### Interactive Development
 
 Start interactive session for development:
 ```bash
-docker run --rm -it --entrypoint /bin/sh cleanstart/curl:latest-dev
+docker run --rm -it --entrypoint /bin/sh ghcr.io/cleanstart-containers/curl:latest-dev
 ```
 
 ### Container Start
 
 Start the container:
 ```bash
-docker run --rm -it --name curl-dev cleanstart/curl:latest
+docker run --rm -it --name curl-dev ghcr.io/cleanstart-containers/curl:latest
 ```
 
 ---
@@ -67,8 +67,8 @@ docker run --rm -it --name curl-dev cleanstart/curl:latest
 
 ### Multi-Platform Images
 ```bash
-docker pull --platform linux/amd64 cleanstart/curl:latest
-docker pull --platform linux/arm64 cleanstart/curl:latest
+docker pull --platform linux/amd64 ghcr.io/cleanstart-containers/curl:latest
+docker pull --platform linux/arm64 ghcr.io/cleanstart-containers/curl:latest
 ```
 
 ---
