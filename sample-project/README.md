@@ -33,7 +33,7 @@ mkdir -p ./data
 
 # Download file
 docker run --rm -v $(pwd)/data:/workspace cleanstart/curl:latest \
-  curl -s -o /workspace/test.json https://httpbin.org/json
+  -s -o /workspace/test.json https://httpbin.org/json
 
 # Check downloaded file
 ls -la ./data/
