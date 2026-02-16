@@ -78,7 +78,7 @@ docker pull --platform linux/arm64 ghcr.io/cleanstart-containers/curl:latest
 - **Official Documentation:** https://curl.se/docs/
 - **Provenance / SBOM / Signature:** https://images.cleanstart.com/images/curl
 - **Docker Hub:** https://hub.docker.com/r/cleanstart/curl
-- **CleanStart All Images:** https://images.cleanstart.com
+- **CleanStart All Images:** https://images.cleanstart.com/images/curl/details
 - **CleanStart Community Images:** https://hub.docker.com/u/cleanstart
 
 ---
